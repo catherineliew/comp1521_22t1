@@ -28,14 +28,15 @@ inner_loop:
     	mul	$t1, $t1, $a3
     	sw	$t1, ($t0)
     
-    	# col++;
-    # goto inner_loop;
+    	add	$s1, $s1, 1		# col++;
+    	b 	inner_loop		# goto inner_loop;
 end_inner_loop:
-    # row++;
-    # goto outer_loop;
+    	add	$s0, $s0, 1		# row++;
+    	b outer_loop			# goto outer_loop;
 end_outer_loop:
 
 epilogue:
 	pop 	$s1
 	pop	$s0
+	end
 	jr 	$ra
