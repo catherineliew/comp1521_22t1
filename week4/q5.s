@@ -57,4 +57,3 @@ sum2:
  	#(int x, int y) {
     	add	$v0, $a0, $a1	# return x + y;
     	jr 	$ra
-}
