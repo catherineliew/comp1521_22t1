@@ -6,5 +6,6 @@
 - A [post](https://www.ralismark.xyz/posts/twos-complement) that provides an intuitive explanation of 2's complement
 
 ## Floating Point Resources
+- [Special numbers](special_numbers.png)
 - [https://www.h-schmidt.net/FloatConverter/IEEE754.html](https://www.h-schmidt.net/FloatConverter/IEEE754.html)
 - [https://evanw.github.io/float-toy/](https://evanw.github.io/float-toy/)
