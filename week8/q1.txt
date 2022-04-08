@@ -1,0 +1,8 @@
+1 a) /home/cs1521/web
+~jas means /home/jas
+~ means home directory
+.. means parent directory
+~web /home/web
+b) /
+c) ..
+
