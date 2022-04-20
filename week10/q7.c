@@ -30,12 +30,13 @@ int main(void) {
     printf("Final total: %d\n", global_total);
 }
 
-/* thread 1            thread 2
+/*
+    thread 1            thread 2
 
-    load   3            load 0
-    add       4          add 1
-    store     4         store 1
+    load     3          load     0
+    add      4          add      1
+    store    4          store    1
 
-global total = 5000
+global total = 1
 
 */
